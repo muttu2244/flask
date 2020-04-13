@@ -1,0 +1,13 @@
+<h1>Thank you.</h1>
+
+<h1>Here is the info you gave:</h1>
+<ul>
+  <li>Name: {{session['name']}}</li>
+  <li>Insured: {{session['insured']}}</li>
+  <li>Car: {{session['car']}}</li>
+  <li>ChassiNumber: {{session['chassiNumber']}}</li>
+</ul>
+
+<body>
+<img src=" {{url_for('send_image', filename=image_name)}}">
+</body>

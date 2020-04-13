@@ -1,0 +1,21 @@
+Car No: <TextField>
+Insurance No: <TextField>
+Name of the Insurer: <TextField>
+Chassi No: <TextField>
+
+Upload Photos: <Browse and Upload functionality> 
+
+
+
+
+breed = name 
+neutered = Insured
+food choice = car model
+feedback = chassi No
+
+
+
+chatbot interfaces
+
+https://towardsdatascience.com/build-a-simple-chatbot-with-python-and-google-search-c000aa3f73f0
+

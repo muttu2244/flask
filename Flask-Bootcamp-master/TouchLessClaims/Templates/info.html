@@ -1,0 +1,14 @@
+<h1>Welcome to Insurance Claim</h1>
+<form  method="POST">
+    {# This hidden_tag is a CSRF security feature. #}
+    {{ form.hidden_tag() }}
+    {{ form.name.label }} {{form.name}}
+    <br>
+    {{ form.insured.label}} {{form.insured}}
+    <br>
+    {{form.car_model.label}}{{form.car_model}}
+    <br>
+    {{form.chassiNumber}}
+   <br>
+    {{ form.submit() }}
+</form>
