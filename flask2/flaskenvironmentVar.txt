@@ -1,0 +1,6 @@
+set FLASK_APP=flaskBlog.py
+set FLASK_DEBUG=1
+
+
+pip install flask
+pip install flask-wtf
